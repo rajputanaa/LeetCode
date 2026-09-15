@@ -31,13 +31,12 @@ class Solution {
             if(nums[i]<nums[j]){
                 temp[k] = nums[i];
                 i++;
-                k++;
             }
             else{
                 temp[k] = nums[j];
                 j++;
-                k++;
             }
+            k++;
         }
 
         while(i<=mid){
